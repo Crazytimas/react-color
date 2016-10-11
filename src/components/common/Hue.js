@@ -118,6 +118,10 @@ export class Hue extends React.Component {
           left: '0px',
           top: `${ -((this.props.hsl.h * 100) / 360) + 100 }%`,
         },
+        slider: {
+          transform: 'translate(-2px -9px)',
+          width: '16px',
+        },
       },
     }, this.props)
 

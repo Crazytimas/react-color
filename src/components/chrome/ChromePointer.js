@@ -19,6 +19,11 @@ export class ChromePointer extends React.Component {
           boxShadow: '0 1px 4px 0 rgba(0, 0, 0, 0.37)',
         },
       },
+      'direction-vertical': {
+        picker: {
+          transform: 'translate(0px, -5px)',
+        },
+      },
     })
 
     return (
